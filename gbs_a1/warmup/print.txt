@@ -1,0 +1,11 @@
+testdir/resources/src/vlc-player.c:4:    printf("You cannot watch movies in a terminal!\n");
+testdir/resources/src/doNothing.c:4:    printf("I'm deprecated\n");
+testdir/resources/src/myLength.c:4:    printf("I'm a program with a short name\n");
+testdir/resources/src/readInput.c:65:    printf("%zu Wörter\n", wordCount);
+testdir/resources/src/readInput.c:66:    printf("%.2lf Sekunden\n", elapsedTime);
+testdir/resources/src/readInput.c:68:    printf("%.2lf wpm\n", wordCount * 60 / elapsedTime);
+testdir/resources/src/readInput.c:74:        printf("This is %s\nPlease type something.", argv[0]);
+testdir/resources/src/readInput.c:79:        printf("An argument is missing...\n");
+testdir/resources/src/readInput.c:80:        printf("Maximum input size is needed.\n");
+testdir/resources/src/readInput.c:88:        printf("Non-negative size please!");
+testdir/resources/src/minecraft.c:4:    printf("You should not play right now!\n");

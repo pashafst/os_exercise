@@ -1,0 +1,273 @@
+ale.tul+ 18860  0.0  0.0  77068  7892 ?        Ss   Okt22   0:08 /lib/systemd/systemd --user
+ale.tul+ 18861  0.0  0.0 257972  3200 ?        S    Okt22   0:00 (sd-pam)
+ale.tul+ 20165  0.0  0.0   6504   780 ?        S    21:12   0:00 sleep 2
+ale.tul+ 20260  0.0  0.0  11920  3196 ?        S    Okt22   1:37 /bin/bash /gbs/aufgaben/a1/testdir/endlos_stern.sh
+ani.mek+ 20160  0.0  0.0   6504   776 ?        S    21:12   0:00 sleep 5
+ani.mek+ 21061  0.0  0.0  77056  7920 ?        Ss   Okt20   0:15 /lib/systemd/systemd --user
+ani.mek+ 21062  0.0  0.0 257972  3200 ?        S    Okt20   0:00 (sd-pam)
+ani.mek+ 22373  0.0  0.0  11920  3144 ?        S    Okt20   1:01 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+ben.mos+ 10685  0.0  0.0  77056  7996 ?        Ss   Okt20   0:15 /lib/systemd/systemd --user
+ben.mos+ 10686  0.0  0.0 257972  3200 ?        S    Okt20   0:00 (sd-pam)
+ben.mos+ 21438  0.0  0.0  57004  9976 ?        S    Okt20   0:00 vim lilo.c
+bjoe.fi+  1701  0.0  0.0  77008  7864 ?        Ss   Mär23   1:45 /lib/systemd/systemd --user
+bjoe.fi+  1702  0.0  0.0 257556  2908 ?        S    Mär23   0:00 (sd-pam)
+bjoe.fi+  1736  0.0  0.0  11304   316 ?        Ss   Mär23   0:00 ssh-agent
+car.kir+  3648  0.0  0.0  11920  3148 ?        S    09:51   0:11 /bin/bash ./endlos_stern.sh
+car.kir+ 18345  0.0  0.0  76948  7808 ?        Ss   08:27   0:02 /lib/systemd/systemd --user
+car.kir+ 18346  0.0  0.0 257972  3200 ?        S    08:27   0:00 (sd-pam)
+car.kir+ 20157  0.0  0.0   6504   740 ?        S    21:12   0:00 sleep 5
+car.kir+ 20168  0.0  0.0   6504   824 ?        S    21:12   0:00 sleep 2
+car.kir+ 22655  0.0  0.0  11920  3180 ?        S    14:50   0:02 /bin/bash ./endlos_stern.sh
+daemon    1095  0.0  0.0  28332  2288 ?        Ss   Feb06   0:01 /usr/sbin/atd -f
+dan.jan+ 19839  0.0  0.0  76832  7712 ?        Ss   21:11   0:00 /lib/systemd/systemd --user
+dan.jan+ 19840  0.0  0.0 257972  3200 ?        S    21:11   0:00 (sd-pam)
+dan.jan+ 19871  0.1  0.0 103864  3536 ?        S    21:11   0:00 sshd: dan.janssen@pts/26
+dan.jan+ 19872  0.2  0.0  21868  5112 pts/26   Ss   21:11   0:00 -bash
+dan.jan+ 20199  0.0  0.0  36728  3740 pts/26   R+   21:12   0:00 ps aux --sort user
+eli.sch+  2634  0.0  0.0  11920  3296 ?        S    Okt16   2:00 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+eli.sch+  2951  0.0  0.0  11920  3148 ?        S    Okt16   1:57 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+eli.sch+ 20159  0.0  0.0   6504   824 ?        S    21:12   0:00 sleep 5
+eli.sch+ 20161  0.0  0.0   6504   784 ?        S    21:12   0:00 sleep 5
+eli.sch+ 28268  0.0  0.0  77052  7992 ?        Ss   Okt16   0:24 /lib/systemd/systemd --user
+eli.sch+ 28269  0.0  0.0 257748  2976 ?        S    Okt16   0:00 (sd-pam)
+fai.ari+  8238  0.0  0.0  76936  7772 ?        Ss   Okt25   0:03 /lib/systemd/systemd --user
+fai.ari+  8239  0.0  0.0 257972  3200 ?        S    Okt25   0:00 (sd-pam)
+fai.ari+  8934  0.0  0.0  11920  3124 ?        S    Okt25   0:10 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+fai.ari+ 20195  0.0  0.0   6504   764 ?        S    21:12   0:00 sleep 5
+ily.al-+ 11635  0.0  0.0  77060  8012 ?        Ss   Okt21   0:14 /lib/systemd/systemd --user
+ily.al-+ 11636  0.0  0.0 257972  3200 ?        S    Okt21   0:00 (sd-pam)
+ily.al-+ 15498  0.0  0.0  11920  3284 ?        S    Okt21   2:17 /bin/bash ./endlos_stern.sh
+ily.al-+ 20166  0.0  0.0   6504   736 ?        S    21:12   0:00 sleep 2
+isesra    1180  0.0  0.0  77028  7744 ?        Ss   Feb06   1:47 /lib/systemd/systemd --user
+isesra    1189  0.0  0.0 109968  2640 ?        S    Feb06   0:00 (sd-pam)
+isesra    4147  0.0  0.0 103868  3624 ?        S    18:50   0:00 sshd: isesra@pts/15
+isesra    4148  0.0  0.0  22200  5460 pts/15   Ss   18:50   0:00 -bash
+jan.bau+ 29804  0.0  0.0  76936  7848 ?        Ss   18:32   0:00 /lib/systemd/systemd --user
+jan.bau+ 29805  0.0  0.0 257972  3200 ?        S    18:32   0:00 (sd-pam)
+jan.bau+ 29834  0.0  0.0 103864  4264 ?        S    18:32   0:00 sshd: jan.baumann@pts/22
+jan.bau+ 29836  0.0  0.0  22000  5540 pts/22   Ss+  18:32   0:00 -bash
+jan.toe+ 20167  0.0  0.0   6504   788 ?        S    21:12   0:00 sleep 2
+jan.toe+ 28288  0.0  0.0  77044  8056 ?        Ss   Okt19   0:19 /lib/systemd/systemd --user
+jan.toe+ 28289  0.0  0.0 257908  3116 ?        S    Okt19   0:00 (sd-pam)
+jan.toe+ 31763  0.0  0.0  11920  3248 ?        S    Okt19   2:52 /bin/bash ./endlos_stern.sh
+joh.tar+ 18076  0.0  0.0  76940  7668 ?        Ss   17:55   0:00 /lib/systemd/systemd --user
+joh.tar+ 18077  0.0  0.0 257972  3200 ?        S    17:55   0:00 (sd-pam)
+joh.tar+ 23647  0.0  0.0 103864  3448 ?        S    19:41   0:00 sshd: joh.tarbouch@pts/27
+joh.tar+ 23648  0.0  0.0  21944  5476 pts/27   Ss+  19:41   0:00 -bash
+jos.oth+ 14074  0.0  0.0  76944  7852 ?        Ss   19:16   0:00 /lib/systemd/systemd --user
+jos.oth+ 14075  0.0  0.0 257972  3200 ?        S    19:16   0:00 (sd-pam)
+jos.oth+ 14101  0.0  0.0 103864  3708 ?        S    19:16   0:00 sshd: jos.otholt@pts/21
+jos.oth+ 14104  0.0  0.0  21936  5312 pts/21   Ss+  19:16   0:00 -bash
+kai.bur+ 20546  0.0  0.0 103868  3520 ?        S    Okt19   0:00 sshd: kai.burgdorf@notty
+kai.bur+ 20547  0.0  0.0  13060  2084 ?        Ss   Okt19   0:00 /usr/lib/openssh/sftp-server
+kai.bur+ 27341  0.0  0.0  77036  8064 ?        Ss   Okt19   0:20 /lib/systemd/systemd --user
+kai.bur+ 27342  0.0  0.0 257908  3116 ?        S    Okt19   0:00 (sd-pam)
+kha.el_+  5007  0.0  0.0  76832  7700 ?        Ss   20:21   0:00 /lib/systemd/systemd --user
+kha.el_+  5008  0.0  0.0 257972  3200 ?        S    20:21   0:00 (sd-pam)
+kha.el_+  5033  0.0  0.0 103868  3536 ?        S    20:21   0:00 sshd: kha.el_abdellaoui@pts/3
+kha.el_+  5035  0.0  0.0  21808  5060 pts/3    Ss+  20:21   0:00 -bash
+kha.el_+ 17100  0.0  0.0 103864  3604 ?        S    21:02   0:00 sshd: kha.el_abdellaoui@pts/16
+kha.el_+ 17102  0.0  0.0  21808  5124 pts/16   Ss+  21:02   0:00 -bash
+ky.nguy+ 18574  0.0  0.0  76828  7648 ?        Ss   21:07   0:00 /lib/systemd/systemd --user
+ky.nguy+ 18575  0.0  0.0 257972  3200 ?        S    21:07   0:00 (sd-pam)
+ky.nguy+ 18611  0.0  0.0 103864  3704 ?        S    21:07   0:00 sshd: ky.nguyen@pts/19
+ky.nguy+ 18612  0.0  0.0  21808  5068 pts/19   Ss+  21:07   0:00 -bash
+luk.nic+  3437  0.0  0.0  11920  3248 ?        S    13:54   0:03 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+luk.nic+  5894  0.0  0.0  76940  7912 ?        Ss   12:05   0:02 /lib/systemd/systemd --user
+luk.nic+  5895  0.0  0.0 257972  3200 ?        S    12:05   0:00 (sd-pam)
+luk.nic+ 20151  0.0  0.0   6504   740 ?        S    21:12   0:00 sleep 5
+mar.hen+ 11172  0.0  0.0  77056  8004 ?        Ss   Okt20   0:17 /lib/systemd/systemd --user
+mar.hen+ 11173  0.0  0.0 257908  3116 ?        S    Okt20   0:00 (sd-pam)
+mar.hen+ 17815  0.0  0.0  11920  3172 ?        S    Okt20   1:07 /bin/bash ./endlos_stern.sh
+mar.hen+ 20158  0.0  0.0   6504   784 ?        S    21:12   0:00 sleep 5
+message+  1100  0.0  0.0  50392  4644 ?        Ss   Feb06   5:41 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+mysql    17368  0.5  1.9 2606736 319128 ?      Sl   Jul30 686:38 /usr/sbin/mysqld --daemonize --pid-file=/run/mysqld/mysqld.pid
+nic.ral+ 14850  0.0  0.0  76940  7980 ?        Ss   16:05   0:01 /lib/systemd/systemd --user
+nic.ral+ 14851  0.0  0.0 257972  3200 ?        S    16:05   0:00 (sd-pam)
+nic.ral+ 14885  0.0  0.0 103864  4320 ?        S    16:05   0:00 sshd: nic.ralfs@pts/38
+nic.ral+ 14886  0.0  0.0  22864  6296 pts/38   Ss   16:05   0:00 -bash
+nic.ral+ 27208  0.0  0.0  18644  4212 pts/38   S+   19:50   0:00 git log
+nic.ral+ 27209  0.0  0.0   8884   976 pts/38   S+   19:50   0:00 /usr/bin/pager
+nid.hou+ 12541  0.0  0.0  76832  7728 ?        Ss   20:46   0:00 /lib/systemd/systemd --user
+nid.hou+ 12542  0.0  0.0 257972  3200 ?        S    20:46   0:00 (sd-pam)
+nid.hou+ 12573  0.0  0.0 103868  3704 ?        S    20:46   0:00 sshd: nid.houchaime@pts/14
+nid.hou+ 12574  0.0  0.0  23540  5160 pts/14   Ss   20:46   0:00 -bash
+nid.hou+ 13356  0.0  0.0  22572  4308 pts/14   S+   20:49   0:00 man grep.1
+nid.hou+ 13367  0.0  0.0  10632  2356 pts/14   S+   20:49   0:00 pager
+nid.hou+ 19136  0.0  0.0 103864  3700 ?        S    21:08   0:00 sshd: nid.houchaime@pts/24
+nid.hou+ 19156  0.0  0.0  23540  5464 pts/24   Ss   21:08   0:00 -bash
+nid.hou+ 19267  0.0  0.0  22572  4228 pts/24   S+   21:09   0:00 man grep.1
+nid.hou+ 19278  0.0  0.0  10632  2316 pts/24   S+   21:09   0:00 pager
+postfix    819  0.0  0.0  73856  5452 ?        S    Sep28   0:06 qmgr -l -t unix -u
+postfix  15853  0.0  0.0  73808  5300 ?        S    20:58   0:00 pickup -l -t unix -u -c
+qas.sef+ 16520  0.0  0.0  76936  7864 ?        Ss   19:22   0:00 /lib/systemd/systemd --user
+qas.sef+ 16521  0.0  0.0 257972  3200 ?        S    19:22   0:00 (sd-pam)
+qas.sef+ 16552  0.0  0.0 103864  3304 ?        S    19:22   0:00 sshd: qas.sefaldeen@pts/37
+qas.sef+ 16553  0.0  0.0  21812  5176 pts/37   Ss+  19:22   0:00 -bash
+root         1  0.0  0.0 226052  9844 ?        Ss   Feb06  20:31 /lib/systemd/systemd --system --deserialize 20
+root         2  0.0  0.0      0     0 ?        S    Feb06   0:12 [kthreadd]
+root         4  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        I<   Feb06   0:00 [mm_percpu_wq]
+root         7  0.0  0.0      0     0 ?        S    Feb06   0:15 [ksoftirqd/0]
+root         8  0.0  0.0      0     0 ?        I    Feb06  16:46 [rcu_sched]
+root         9  0.0  0.0      0     0 ?        I    Feb06   0:00 [rcu_bh]
+root        10  0.0  0.0      0     0 ?        S    Feb06   0:01 [migration/0]
+root        11  0.0  0.0      0     0 ?        S    Feb06   1:08 [watchdog/0]
+root        12  0.0  0.0      0     0 ?        S    Feb06   0:00 [cpuhp/0]
+root        13  0.0  0.0      0     0 ?        S    Feb06   0:00 [cpuhp/1]
+root        14  0.0  0.0      0     0 ?        S    Feb06   0:59 [watchdog/1]
+root        15  0.0  0.0      0     0 ?        S    Feb06   0:02 [migration/1]
+root        16  0.0  0.0      0     0 ?        S    Feb06   0:07 [ksoftirqd/1]
+root        18  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kworker/1:0H]
+root        19  0.0  0.0      0     0 ?        S    Feb06   0:00 [cpuhp/2]
+root        20  0.0  0.0      0     0 ?        S    Feb06   1:06 [watchdog/2]
+root        21  0.0  0.0      0     0 ?        S    Feb06   0:01 [migration/2]
+root        22  0.0  0.0      0     0 ?        S    Feb06   0:19 [ksoftirqd/2]
+root        24  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kworker/2:0H]
+root        25  0.0  0.0      0     0 ?        S    Feb06   0:00 [cpuhp/3]
+root        26  0.0  0.0      0     0 ?        S    Feb06   0:58 [watchdog/3]
+root        27  0.0  0.0      0     0 ?        S    Feb06   0:02 [migration/3]
+root        28  0.0  0.0      0     0 ?        S    Feb06   0:07 [ksoftirqd/3]
+root        30  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kworker/3:0H]
+root        31  0.0  0.0      0     0 ?        S    Feb06   0:00 [kdevtmpfs]
+root        32  0.0  0.0      0     0 ?        I<   Feb06   0:00 [netns]
+root        33  0.0  0.0      0     0 ?        S    Feb06   0:00 [rcu_tasks_kthre]
+root        34  0.0  0.0      0     0 ?        S    Feb06   0:00 [kauditd]
+root        36  0.0  0.0      0     0 ?        S    Feb06   2:13 [khungtaskd]
+root        37  0.0  0.0      0     0 ?        S    Feb06   0:00 [oom_reaper]
+root        38  0.0  0.0      0     0 ?        I<   Feb06   0:00 [writeback]
+root        39  0.0  0.0      0     0 ?        S    Feb06   0:00 [kcompactd0]
+root        40  0.0  0.0      0     0 ?        SN   Feb06   0:00 [ksmd]
+root        41  0.0  0.0      0     0 ?        SN   Feb06   0:00 [khugepaged]
+root        42  0.0  0.0      0     0 ?        I<   Feb06   0:00 [crypto]
+root        43  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kintegrityd]
+root        44  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kblockd]
+root        45  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ata_sff]
+root        46  0.0  0.0      0     0 ?        I<   Feb06   0:00 [md]
+root        47  0.0  0.0      0     0 ?        I<   Feb06   0:00 [edac-poller]
+root        48  0.0  0.0      0     0 ?        I<   Feb06   0:00 [devfreq_wq]
+root        49  0.0  0.0      0     0 ?        I<   Feb06   0:00 [watchdogd]
+root        54  0.0  0.0      0     0 ?        S    Feb06   0:10 [kswapd0]
+root        55  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kworker/u9:0]
+root        56  0.0  0.0      0     0 ?        S    Feb06   0:00 [ecryptfs-kthrea]
+root        98  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kthrotld]
+root        99  0.0  0.0      0     0 ?        I<   Feb06   0:00 [acpi_thermal_pm]
+root       100  0.0  0.0      0     0 ?        S    Feb06   0:00 [scsi_eh_0]
+root       101  0.0  0.0      0     0 ?        I<   Feb06   0:00 [scsi_tmf_0]
+root       102  0.0  0.0      0     0 ?        S    Feb06   0:00 [scsi_eh_1]
+root       103  0.0  0.0      0     0 ?        I<   Feb06   0:00 [scsi_tmf_1]
+root       109  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ipv6_addrconf]
+root       118  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kstrp]
+root       135  0.0  0.0      0     0 ?        I<   Feb06   0:00 [charger_manager]
+root       186  0.0  0.0      0     0 ?        I<   Feb06  11:41 [kworker/0:1H]
+root       196  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ttm_swap]
+root       265  0.0  0.0      0     0 ?        I<   Feb06   0:00 [raid5wq]
+root       289  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kdmflush]
+root       290  0.0  0.0      0     0 ?        I<   Feb06   0:00 [bioset]
+root       299  0.0  0.0      0     0 ?        I<   Feb06   0:00 [kdmflush]
+root       301  0.0  0.0      0     0 ?        I<   Feb06   0:00 [bioset]
+root       317  0.0  0.0      0     0 ?        I<   Feb06  10:15 [kworker/2:1H]
+root       340  0.0  0.0      0     0 ?        I<   Feb06   9:24 [kworker/1:1H]
+root       343  0.0  0.0      0     0 ?        I<   Feb06   9:23 [kworker/3:1H]
+root       347  0.0  0.0      0     0 ?        S    Feb06 110:33 [jbd2/dm-0-8]
+root       348  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ext4-rsv-conver]
+root       402  0.0  0.0      0     0 ?        I<   Feb06   0:00 [iscsi_eh]
+root       407  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ib-comp-wq]
+root       408  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ib-comp-unb-wq]
+root       410  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ib_mcast]
+root       411  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ib_nl_sa_wq]
+root       417  0.0  0.0      0     0 ?        I<   Feb06   0:00 [rdma_cm]
+root       673  0.0  0.0      0     0 ?        I<   Feb06   0:00 [ext4-rsv-conver]
+root       817  0.0  0.0  67376  4080 ?        Ss   Sep28   0:27 /usr/lib/postfix/sbin/master -w
+root      1065  0.0  0.0  72284  7696 ?        Ss   Feb06   6:52 /lib/systemd/systemd-logind
+root      1078  0.0  0.0 531912  3804 ?        Ssl  Feb06   3:56 /usr/bin/lxcfs /var/lib/lxcfs/
+root      1085  0.0  0.0  30356  3116 ?        Ss   Feb06   3:33 /usr/sbin/cron -f
+root      1089  0.0  0.0 110484  3388 ?        Ssl  Feb06  20:19 /usr/sbin/irqbalance --foreground
+root      1092  0.0  0.0 290148  8188 ?        Ssl  Feb06  41:17 /usr/lib/accountsservice/accounts-daemon
+root      1096  0.0  0.1 169624 17032 ?        Ssl  Feb06   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root      1138  0.0  0.1 186272 19876 ?        Ssl  Feb06   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root      1175  0.0  0.0 288884  6344 ?        Ssl  Feb06   2:03 /usr/lib/policykit-1/polkitd --no-debug
+root      1186  0.0  0.0  15216  1820 tty1     Ss+  Feb06   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root      2982  0.0  0.2 190524 48156 ?        S<s  Sep28   5:06 /lib/systemd/systemd-journald
+root      4123  0.0  0.0 103868  7100 ?        Ss   18:50   0:00 sshd: isesra [priv]
+root      4182  0.0  0.0  58416  4080 pts/15   S    18:50   0:00 sudo -i
+root      4183  0.0  0.0  22452  5984 pts/15   S+   18:50   0:00 -bash
+root      4294  0.0  0.0      0     0 ?        I    17:10   0:00 [kworker/3:2]
+root      4335  0.0  0.0 105904  1908 ?        Ss   Sep28   0:00 /sbin/lvmetad -f
+root      4947  0.0  0.0 103868  7112 ?        Ss   20:21   0:00 sshd: kha.el_abdellaoui [priv]
+root      5266  0.0  0.0  45432  4272 ?        Ss   Sep28   0:26 /lib/systemd/systemd-udevd
+root      6414  0.0  0.0      0     0 ?        I<   Feb19   0:00 [xfsalloc]
+root      6415  0.0  0.0      0     0 ?        I<   Feb19   0:00 [xfs_mru_cache]
+root      6427  0.0  0.0      0     0 ?        S    Feb19   0:00 [jfsIO]
+root      6428  0.0  0.0      0     0 ?        S    Feb19   0:00 [jfsCommit]
+root      6429  0.0  0.0      0     0 ?        S    Feb19   0:00 [jfsCommit]
+root      6430  0.0  0.0      0     0 ?        S    Feb19   0:00 [jfsCommit]
+root      6431  0.0  0.0      0     0 ?        S    Feb19   0:00 [jfsCommit]
+root      6432  0.0  0.0      0     0 ?        S    Feb19   0:00 [jfsSync]
+root      7667  0.0  0.0      0     0 ?        I    20:30   0:00 [kworker/u8:0]
+root      9378  0.0  0.0      0     0 ?        I    20:36   0:00 [kworker/u8:1]
+root     12533  0.0  0.0 103868  7020 ?        Ss   20:46   0:00 sshd: nid.houchaime [priv]
+root     14005  0.0  0.0 103864  7108 ?        Ss   19:16   0:00 sshd: jos.otholt [priv]
+root     14055  0.0  0.0   6540   860 ?        S    Apr28   0:00 tail -f /var/log/syslog
+root     14848  0.0  0.0 103864  6980 ?        Ss   16:05   0:00 sshd: nic.ralfs [priv]
+root     15799  0.0  0.0  31604  6440 ?        Ss   Mär04   9:21 tmux
+root     15800  0.0  0.0  22300  5608 pts/9    Ss   Mär04   5:26 -bash
+root     16422  0.0  0.0 103864  7028 ?        Ss   19:22   0:00 sshd: qas.sefaldeen [priv]
+root     16738  0.0  0.0      0     0 ?        I    21:01   0:00 [kworker/0:0]
+root     16984  0.0  0.0 103864  7160 ?        Ss   21:01   0:00 sshd: kha.el_abdellaoui [priv]
+root     17495  0.0  0.0      0     0 ?        I    21:03   0:00 [kworker/1:1]
+root     18196  0.0  0.0      0     0 ?        I    21:05   0:00 [kworker/2:2]
+root     18197  0.0  0.0      0     0 ?        I    21:05   0:00 [kworker/3:1]
+root     18377  0.0  0.0 103864  7076 ?        Ss   14:36   0:00 sshd: the.braun [priv]
+root     18557  0.0  0.0 103864  7020 ?        Ss   21:06   0:00 sshd: ky.nguyen [priv]
+root     19090  0.0  0.0 103864  7008 ?        Ss   21:08   0:00 sshd: nid.houchaime [priv]
+root     19472  0.0  0.0   6504   768 pts/9    S+   21:09   0:00 sleep 300
+root     19829  0.0  0.0 103864  7108 ?        Ss   21:11   0:00 sshd: dan.janssen [priv]
+root     19838  0.0  0.0      0     0 ?        I    21:11   0:00 [kworker/1:2]
+root     19948  0.0  0.0   6540   824 ?        S    Okt16   0:00 tail -f /var/log/apache2/srabmit.sra.uni-hannover.de ssl_error_ssl.log
+root     20125  0.5  0.0 103864  7056 ?        Ss   21:12   0:00 sshd: tob.ozr [priv]
+root     20522  0.0  0.0 103868  7148 ?        Ss   Okt19   0:00 sshd: kai.burgdorf [priv]
+root     23593  0.0  0.0 103864  6964 ?        Ss   19:41   0:00 sshd: joh.tarbouch [priv]
+root     27575  0.0  0.0  72300  6320 ?        Ss   Jul31   0:19 /usr/sbin/sshd -D
+root     28767  0.0  0.0      0     0 ?        I    19:54   0:00 [kworker/0:1]
+root     29251  0.0  0.0      0     0 ?        I    19:56   0:00 [kworker/2:1]
+root     29379  0.0  0.0 108036 10248 ?        Ss   Okt19   0:27 /usr/sbin/apache2 -k start
+root     29771  0.0  0.0 103864  6992 ?        Ss   18:32   0:00 sshd: jan.baumann [priv]
+root     30431  0.0  0.0 103864  7028 ?        Ss   Okt23   0:00 sshd: tho.edeler [priv]
+root     32194  0.0  0.0      0     0 ?        I    18:38   0:02 [kworker/u8:3]
+root     32412  0.0  0.0      0     0 ?        I    20:05   0:00 [kworker/1:0]
+srasubm+ 26541  0.0  0.4 603764 73628 ?        Sl   06:25   0:17 (wsgi:srasubmissi -k start
+srasubm+ 26542  0.0  0.4 537420 71748 ?        Sl   06:25   0:17 (wsgi:srasubmissi -k start
+srasubm+ 29219  0.0  0.3 269408 64112 ?        Ssl  Okt19   0:16 python3 /usr/local/bin/srasubmission-server
+syslog    8483  0.0  0.0 263036  4844 ?        Ssl  Sep28   0:31 /usr/sbin/rsyslogd -n
+systemd+  2904  0.0  0.0  70660  5396 ?        Ss   Sep28   0:15 /lib/systemd/systemd-resolved
+systemd+  2954  0.0  0.0 141956  3336 ?        Ssl  Sep28   0:19 /lib/systemd/systemd-timesyncd
+the.bra+ 18668  0.0  0.0  76936  7768 ?        Ss   14:37   0:01 /lib/systemd/systemd --user
+the.bra+ 18669  0.0  0.0 257972  3200 ?        S    14:37   0:00 (sd-pam)
+the.bra+ 18700  0.0  0.0 103864  3576 ?        S    14:37   0:00 sshd: the.braun@pts/30
+the.bra+ 18701  0.0  0.0  21808  5452 pts/30   Ss+  14:37   0:00 -bash
+tho.ede+ 30575  0.0  0.0  77060  8052 ?        Ss   Okt23   0:07 /lib/systemd/systemd --user
+tho.ede+ 30576  0.0  0.0 257972  3200 ?        S    Okt23   0:00 (sd-pam)
+tho.ede+ 30601  0.0  0.0 104256  4624 ?        S    Okt23   0:00 sshd: tho.edeler@pts/20
+tho.ede+ 30602  0.0  0.0  21736  5236 pts/20   Ss+  Okt23   0:00 -bash
+til.tho+  1908  0.0  0.0  77068  7944 ?        Ss   Okt22   0:10 /lib/systemd/systemd --user
+til.tho+  1909  0.0  0.0 257972  3200 ?        S    Okt22   0:00 (sd-pam)
+til.tho+  2604  0.0  0.0  11920  3208 ?        S    Okt22   0:45 /bin/bash ./endlos_stern.sh
+til.tho+ 20162  0.0  0.0   6504   840 ?        S    21:12   0:00 sleep 5
+tim.sch+   318  0.0  0.0  76940  7960 ?        Ss   18:40   0:00 /lib/systemd/systemd --user
+tim.sch+   319  0.0  0.0 257972  3200 ?        S    18:40   0:00 (sd-pam)
+tim.sch+  1731  0.0  0.0  11920  3104 ?        S    18:43   0:01 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+tim.sch+  4178  0.0  0.0  11920  3136 ?        S    18:50   0:00 /bin/bash /gbs/aufgaben/a1/endlos_stern.sh
+tim.sch+ 20163  0.0  0.0   6504   732 ?        S    21:12   0:00 sleep 5
+tim.sch+ 20164  0.0  0.0   6504   796 ?        S    21:12   0:00 sleep 5
+tob.ozr  20170  6.0  0.0  76836  7556 ?        Ss   21:12   0:00 /lib/systemd/systemd --user
+tob.ozr  20171  0.0  0.0 257972  3200 ?        S    21:12   0:00 (sd-pam)
+tob.ozr  20197  0.0  0.0 103864  3476 ?        S    21:12   0:00 sshd: tob.ozr@notty
+tom.egg+  2441  0.0  0.0  77052  7912 ?        Ss   Okt23   0:06 /lib/systemd/systemd --user
+tom.egg+  2442  0.0  0.0 257972  3200 ?        S    Okt23   0:00 (sd-pam)
+tom.egg+  8991  0.0  0.0  11920  3020 ?        S    Okt23   1:11 /bin/bash /gbs/aufgaben/a1/testdir/endlos_stern.sh
+tom.egg+ 20169  0.0  0.0   6504   744 ?        S    21:12   0:00 sleep 2
+uuidd    11105  0.0  0.0  27176  1412 ?        Ss   Sep18   0:00 /usr/sbin/uuidd --socket-activation
+www-data 26540  0.0  0.0 111872  6300 ?        S    06:25   0:00 /usr/sbin/apache2 -k start
+www-data 26543  0.0  0.1 2043892 21864 ?       Sl   06:25   0:03 /usr/sbin/apache2 -k start
+www-data 26544  0.0  0.1 2043792 21636 ?       Sl   06:25   0:03 /usr/sbin/apache2 -k start

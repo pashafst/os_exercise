@@ -1,0 +1,21 @@
+#prozesse
+ps aux --sort user
+
+#dateien
+// -0.25 Punkte
+// Grund: Leider fehlt die Pfadangabe.
+ls -lc
+
+#print
+grep -n -r "printf" /gbs/aufgaben/a1/testdir
+
+#kill
+dan.janssen@srabmit:/gbs/aufgaben/a1/testdir$ ./endlos_stern.sh &
+[1] 23361
+dan.janssen@srabmit:/gbs/aufgaben/a1/testdir$ *
+ps | grep endlos_stern*
+
+23361 pts/28   00:00:00 endlos_stern.sh
+dan.janssen@srabmit:/gbs/aufgaben/a1/testdir$ ki*
+ll 233*
+61

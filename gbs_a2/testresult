@@ -1,0 +1,54 @@
+python3 tests/unittest.py -t tests/
+[1;34mINFO[1;0m:root:Testcase: tests/01_base.test
+[1;34mINFO[1;0m:root:... Subtest: "Compile"
+[1;34mINFO[1;0m:root:...    OK
+[1;34mINFO[1;0m:root:... Subtest: "Malloc and free a friendly amount of memory to check interface"
+[1;34mINFO[1;0m:root:...    OK (1 points)
+[1;34mINFO[1;0m:root:Testcase: tests/02_malloc.test
+[1;34mINFO[1;0m:root:... Subtest: "Simple malloc operation"
+[1;34mINFO[1;0m:root:...    OK (1 points)
+[1;34mINFO[1;0m:root:... Subtest: "Multiple simple malloc operations"
+[1;34mINFO[1;0m:root:...    OK (1 points)
+[1;34mINFO[1;0m:root:... Subtest: "Allocate more memory than available"
+[1;34mINFO[1;0m:root:...    OK (1 points)
+[1;34mINFO[1;0m:root:... Subtest: "Is errno set in case of failure?"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:Testcase: tests/03_free.test
+[1;34mINFO[1;0m:root:... Subtest: "Simple malloc operation"
+[1;34mINFO[1;0m:root:...    OK
+[1;34mINFO[1;0m:root:... Subtest: "halde_free(NULL)"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "halde_free(halde_malloc(0))"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Set errno"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Free checks if it is a it gets a previuosly malloced pointer"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:Testcase: tests/04_malloc_extended.test
+[1;34mINFO[1;0m:root:... Subtest: "Simple malloc operation"
+[1;34mINFO[1;0m:root:...    OK
+[1;34mINFO[1;0m:root:... Subtest: "Resuse first block"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Resuse last block"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Is errno set in case of failure?"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Is "first fit" implemented?"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:Testcase: tests/05_merge.test
+[1;34mINFO[1;0m:root:... Subtest: "Is merging implemented?"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Merge first two blocks"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Merge with left neighbour"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Merge with right neighbour"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Merge with both neighbours"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Merge complex order"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+[1;34mINFO[1;0m:root:... Subtest: "Merge complex order without loosing blocks on track"
+[1;34mINFO[1;0m:root:...    OK (0.5 points)
+You earned circa 12.0 points for this task.
+success

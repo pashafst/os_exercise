@@ -1,0 +1,35 @@
+4.1.1)
+1)
+  a)  Anzahl der Prozesse wächst exponentiell, da jede Generation wird die Anzahl verdoppelt.
+      1. Gen = 1 Prozess
+      2. Gen = 2 Prozesse
+      3. Gen = 4 Prozesse
+      .
+      .
+      .
+      n. Gen = 2^(n-1) Prozesse
+
+  b)
+
+2)    SIGTERM = das Signal wird behandelt. Kann geblocked, oder ignoriert sein durch Behandler.
+      SIGKILL = das Signal ist nicht unterdrückbar.
+
+3)    UNIX-Prozesse haben eigener Adressraum, eigene Dateideskriptortabelle, und Segmente.
+      Fäden sind Teil von Prozess. Adressraum, Dateideskriptoren, Segmente, .. wird mit anderen Fäden geteilt.
+      Fäden haben aber eigener CPU-Zustand, und eigene Stapel.
+
+4)
+
+5)
+  a) richtig
+  b) richtig
+  c) falsch
+  d) falsch
+  e)
+  f) richtig
+
+4.1.2)
+1)  Beim offline Scheduling wird die Zuteilung einmalig vor der Ausführungszeit berechnet. zur Laufzeit steht der Ablaufplan bereits komplett fest. Vorteil ist günstiger, aber statisch
+    Ein online Scheduling agiert vollständig zur Laufzeit, muss dabei ggf. dynamisch auf aktuellen Situation Entscheidungen treffen. Vorteil ist dynamisch, aber teurer.
+
+2)  in SRTF gibt's kein Konvoi-Effekt. aber ein Verhungern ist möglich.

@@ -1,0 +1,11 @@
+// Schöne Abgabe.
+// Völlig korrekt!
+1.4.1) Die Aufgaben eines Betriebsystems kommt auf die Perspektive des Anwenders an, während beispielsweise normale Endnutzer das Betriebssystem, von nun an abgekürzt mit BS, als Ausführungsumgebung für Programme ansehen, bietet das BS für Entwickler eine Entwicklungumgebung. Betrachten wir Ingenieure, so können wir die Aussage treffen, dass ein BS sich um die Verwaltung von Hardwareressourcen kümmert. Wie wir sehen, lässt sich der Begriff des BS nicht so einfach definieren
+
+1.4.2)
+a) Das Kommando 'ls' listet die aktuelle Ordnerstruktur auf, diese Ausgabe wird durch die Pipe an das Programm wc geleitet, welche mit dem Parameter -l die Anzahl der Zeilen (newlines) zählt. Die Verknüpfung beider Programme liefert uns also die Anzahl der Elemente, welche sich im jeweiligen Workdirectory befinden
+
+b) Die Umgebungsvariable PATH bestimmt den Ort, wo sich die Executables befinden. Üblicherweise sind das beispielsweise /usr/bin und /bin
+
+c) Wir können das Wochendatum mithilfe des Programms "date" ausgeben. Dazu benötigen wir das Format +%V, welches uns eben genau diese zurückgibt.
+

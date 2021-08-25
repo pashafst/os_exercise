@@ -1,0 +1,46 @@
+make[1]: Entering directory '/tmp/psu.drlnxa2v.test/pas.fistanto/warmup'
+python3 tests/unittest.py -t tests/
+[1;34mINFO[1;0m:root:Testcase: tests/base.test
+[1;34mINFO[1;0m:root:... Subtest: "Compilation"
+[1;34mINFO[1;0m:root:...    OK (0.1 points)
+[1;34mINFO[1;0m:root:... Subtest: "Hello World?"
+[1;34mINFO[1;0m:root:...    OK (0.3 points)
+[1;34mINFO[1;0m:root:... Subtest: "UID"
+[1;34mINFO[1;0m:root:...    OK (0.3 points)
+[1;34mINFO[1;0m:root:... Subtest: "GID"
+[1;34mINFO[1;0m:root:...    OK (0.3 points)
+You earned circa 1.0 points for this task.
+make[1]: Leaving directory '/tmp/psu.drlnxa2v.test/pas.fistanto/warmup'
+make[1]: Entering directory '/tmp/psu.drlnxa2v.test/pas.fistanto/lilo'
+python3 tests/unittest.py -t tests/
+[1;34mINFO[1;0m:root:Testcase: tests/01_base.test
+[1;34mINFO[1;0m:root:... Subtest: "Compile"
+[1;34mINFO[1;0m:root:...    OK (0.2 points)
+[1;34mINFO[1;0m:root:... Subtest: "Append and pop friendly values to check interface"
+[1;34mINFO[1;0m:root:...    OK (0.2 points)
+[1;34mINFO[1;0m:root:Testcase: tests/02_functional.test
+[1;34mINFO[1;0m:root:... Subtest: "[empty list]: duplicate insert"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "[empty list]: negative insert"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "[empty list]: remove from empty list"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "[filled list]: duplicate insert last"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "[filled list]: duplicate insert middle"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "[filled list]: duplicate insert first"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "[filled list]: insert negative"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:Testcase: tests/03_bad_malloc.test
+[1;34mINFO[1;0m:root:... Subtest: "Uninitialized memory region"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:... Subtest: "Malloc fails to deliver memory"
+[1;34mINFO[1;0m:root:...    OK (0.4 points)
+[1;34mINFO[1;0m:root:Testcase: tests/99_valgrind.test
+[1;34mINFO[1;0m:root:... Subtest: "Using valgrind to detect memory leaks and bad usage patterns"
+[1;34mINFO[1;0m:root:...    OK
+You earned circa 4.0 points for this task.
+make[1]: Leaving directory '/tmp/psu.drlnxa2v.test/pas.fistanto/lilo'
+success

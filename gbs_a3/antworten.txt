@@ -1,0 +1,30 @@
+1)  rmdir löscht nur leere Verzeichnisse, während rm Dateien (und rekursiv auch Verzeichnisse) löscht.
+    Zum Löschen von Verzeichnissen ist daher rmdir sicherer, da sich beispielsweise noch versteckte Dateien und Ordner in dem Ordner befinden könnten
+
+2)  FAT: Dateien werden in separaten Blöcken gespeichert. Die Blockfolge ist ein einfache verkettete Liste.
+    EXT: Blockfolde wird in speziellen Indexblöcken abgelegt. jede Datei hat eigenes Indexblock
+
+3)  Datendatei, Gerätedatei, procfs-Datei, Kommunikationskanal
+
+4)  Hardlink zeigt auf inode, und Symlink ist ein Referenz für ein Datei. Hardlink kann nicht ein Verzeichnis verbinden,
+    aber Symlink kann das machen.
+
+    Anwendung für Hardlink ist zum Beispiel wenn man seine Fotos nach verschiedene Kriterien in andere Verzeichnis sortieren will.
+    Anstatt in jede Verzeichnis ein neues Foto reinfügen, man erzeugt ein Hardlink zu Original Foto.
+
+    Softlink wird für Shortcuts benutzt. zum Beispiel ein Shortcut für meist besuchte Verzeichnisse
+
+5)
+
+6) /dev/ => Device files
+   /usr/ => User Binaries und RO Data
+   /proc/ => Kernel & Prozessdateien
+   /home/ => Homeverzeichnisse der User
+   /etc/ => Konfigurationsdateien
+   /bin/ => Ausführbare Dateien
+   /sbin/ => System Administration binaries
+
+
+7)  cd /b; touch gbs.pdf
+    cd /a; link ../b/gbs.pdf gbs.pdf
+    cd /c; ln -s ../b/gbs.pdf gbs.pdf

@@ -1,0 +1,52 @@
+loesung:
+2.1)
+  1)  #include <filename>
+      -> Compiler sucht nach filename in default include Pfad.
+        // -0.5 Punkte
+        // Grund: Sucht auch im default include Pfad, wenn im Arbeitsverzeichnis nichts gefunden worden ist.
+      #include "filename"
+      -> Compiler sucht nach filename in Arbeitsverzeichnis.
+
+    // -1.0 Punkte
+    // Grund: Wenn ein Prozess terminiert, dann wird auch sein Speicher freigegeben.
+    // Das Problem ist, dass es keine automatische Speicherbereinigung gibt, während der Prozess läuft. Es gibt keinen GC oder ähnliches.
+  2)  Damit die Speichern nicht verwaisen, z.B wenn ein Prozess unerwartet terminiert, dann wird das Speicher verwaisen.
+
+  3)  String ist ein Array von char, und Array ist eigentlich ein Zeiger.
+      Wenn man mit == vergleicht, dann vergleicht man Zeigern, und d.h. die Adresse.
+      die Strings haben zwar gleichen Inhalt, aber die Adresse, wo der Inhalt gespeichert
+      ist, ist unterschiedlich.
+    // -0.5 Punkte
+    // Grund: Konzeptioneller Unterschied fehlt.
+    // Das wären z.B.: Java ist objektorientiert, C ist prozedual. Außerdem hat Java einen GC, C nicht.
+  4)  Java
+      -> High level programming language
+      -> Nutzt ein Interpreter. das Programm wird von Softwareprozessor ausgeführt (JVM)
+
+      C
+      -> Middle level programming language
+      -> C Programm wird direkt kompiliert, d.h von Quellcode wird direkt zu Zielsprache transformiert.
+         (C->ASM) // C wird nur als Zwischenergebnis in Assembler übersetzt. Das fertige Kompilat ist ein Bytestrom, der Instruktionen und Daten vereint.
+
+    // -0.5 Punkte
+    // Grund: Alle genannten Beispiele enthalten keine konstante Zeiger, sondern Zeiger auf konstante Daten.
+    // Das ist ein wesentlicher Unterschied.
+  5)  a) a ist eine Funktion, die einen konstante Zeiger auf char und einen Zeiger auf struct stat nimmt,
+         und einen int zurück gibt.
+
+      b) b ist eine Funktion. b nimmt einen Zeiger auf void, 2 size_t, und cmp.
+         cmp ist ein Zeiger auf eine Funktion, die 2 konstante Zeiger auf void nimmt, und einen int zurück gibt.
+
+      c) c ist ein Feld mit Zeigern auf eine Funktion, die ein char und the_operation nimmt.
+         the_operation ist ein Zeiger auf eine Funktion, die ein double nimmt.
+
+    // -0.5 Punkte
+    // Grund:
+    // 1) v liegt auf dem Stack, da es eine funktionslokale Variable ist.
+    // 2) luftreibung und g liegen in rodata, nicht data.
+    // 3) Begründung, warum luftdichte und luftreibung in unterschiedlichen Segmenten liegen, fehlt.
+    //    Das liegt daran, dass luftreibung konstant und initialisiert ist, luftdichte nicht.
+  6)  text = endgeschwindigkeit
+      bss = luftdichte, v
+      data = luftreibung, g
+      stack = parameter von endgeschwindigkeit

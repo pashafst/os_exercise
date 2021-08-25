@@ -1,0 +1,140 @@
+--- !inherit 01_base.test
+--- !yaml
+requirements: [BASIC]
+
+--- !python
+import select
+import time
+import signal
+
+def slurp(proc):
+  """Slurp reads out all data from stderr and stdout"""
+  retVal = bytes()
+  while True:
+    rlist = [proc.stderr, proc.stdout]
+    (rlist, _0, _1) = select.select(rlist, [],[], 0.2)
+    for fd in rlist:
+       x = fd.read1(4096)
+       retVal += x
+    if not rlist or proc.poll() is not None:
+       break
+  return retVal.decode()
+
+def find(lines, pattern):
+    ret = None
+    for line in lines:
+        if pattern in line:
+           ret = line
+           break
+    print("line with pattern '{}': {}".format(pattern, repr(ret)))
+    if ret is None:
+       raise RuntimeError("Could not find %s-line in output" % pattern)
+    return ret
+
+def ctrl_c(p):
+    print("  unittest: send Ctrl-C")
+    p.send_signal(signal.SIGINT)
+
+
+--- !python Schneller Lauf mit ./ticker 6
+bonus=1
+exe = Compilation().compile()
+p = exe.spawn(["6"])
+
+slurp(p)
+ctrl_c(p)
+print("./ticker 6", slurp(p).strip())
+
+for i in range(0, 6):
+    if p.poll() != None:
+        raise RuntimeError("Programm hat sich frühzeitig beendet")
+    ctrl_c(p)
+    print("./ticker 6:", slurp(p).strip())
+
+if p.poll() != 0:
+   raise RuntimeError("Programm hat sich nicht ordnungsgemäß beendet")
+
+
+--- !python Standardlauf mit ./ticker 2
+bonus=1.5
+exe = Compilation().compile()
+p = exe.spawn(["2"])
+
+txt = slurp(p)
+if txt == "":
+   raise RuntimeError("The program does not make output on stderr before first Ctrl-C.")
+print("./ticker 2:", repr(txt))
+
+ctrl_c(p)
+
+txt = slurp(p)
+if txt == "":
+   raise RuntimeError("The program does not make output, when race is started. (after first Ctrl-C.)")
+print("./ticker 2:", repr(txt))
+
+# First Round
+time.sleep(1)
+ctrl_c(p)
+
+txt = slurp(p)
+print("./ticker 2:", repr(txt))
+if "0:01" not in txt:
+   raise RuntimeError("The program does not output correct time, after ca 1 second of sleep")
+
+# Secod Round and race is over
+time.sleep(2)
+print("  unittest: send Ctrl-C")
+p.send_signal(signal.SIGINT)
+
+# Wait 2 secods maximal until process terminates
+i = 0
+while p.poll() is None and i < 20:
+   time.sleep(0.1)
+   i += 1
+
+txt = slurp(p)
+print("./ticker 2:", repr(txt))
+if "0:02" not in txt:
+   raise RuntimeError("Program did not output the 0:02 second duration of second round")
+
+# Investigate on sum, and fastest durations
+lines = txt.split("\n")
+line_sum     = find(lines, "sum")
+line_fastest = find(lines, "fastest")
+
+if "0:01" not in line_fastest:
+   raise RuntimeError("Fastest round should be around 0:01 second")
+
+if "0:03" not in line_sum:
+   raise RuntimeError("Incorrect duration for the whole race, should be around 0:03 seconds")
+
+if p.poll() != 0:
+   raise RuntimeError("Program did not terminate correctly.")
+
+p.wait()
+
+
+--- !python Lauf mit Abbruch mit ./ticker 100
+bonus=1.5
+exe = Compilation().compile()
+exe.check_requirements(["SIGTERM"])
+p = exe.spawn(["100"])
+
+# Start race
+slurp(p)
+ctrl_c(p)
+
+time.sleep(0.5)
+
+slurp(p)
+p.send_signal(signal.SIGTERM)
+print("  unittest: SIGTERM")
+
+txt = slurp(p)
+print("./ticker 100:", txt)
+if 'cancel' not in txt:
+   raise RuntimeError("Program does not indicate the race was canclled")
+
+if p.poll() != 0:
+   raise RuntimeError("Program did not terminate correctly.")
+

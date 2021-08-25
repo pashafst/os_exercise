@@ -1,0 +1,25 @@
+5.1.1)
+  1)  Race Conditions treten auf, wenn 2 oder mehrere Fäden die gleiche Daten zugreifen wollen, und die Daten in gleichen Zeitpunkt ändern wollen.
+      Es ist gefährlich, weil es ein Zeit gibt, wo das Programm die falsche Ergebnis liefert.
+
+  2)  Passives Warten liegt vor, wenn eine Gruppe von Prozessen wechselseitig auf den Eintritt von Bedingungen wartet. Es wird passives Warten genannt, da der Zustand der Prozessen geblockt sind.
+      (+) CPU-günstig, denn das Betriebssystem muss für jede Resource eine Liste aller Prozesse, die darauf warten, verwaltet.
+      (-)
+
+  3)  Aktives Warten passiert, wenn die Gruppe von Prozessen wechselseitig immer auf Bedingungen nachfragen. Die Prozesse sind zwar nicht in Blocked-Zustand sind, jedoch machen die
+      keinen Forschritt.
+      (+)
+      (-) teuer, weil jede Prozesse prüfen, ob die Bedingungen schon erfüllt sind oder noch nicht.
+
+  4)  Gleichzeitiges Auswerten der Wartebedingung in down() und Hochzählen in up() kann bewirken, dass ein Prozess schlafen geht, obwohl die Wartebedingung nicht mehr gilt.
+      Dies kann vermeidet werden, wenn atomare Befehle implementiert wird.
+
+5.2.2)
+  1)  Ein Deadlock in diesem Beispiel kann passieren, wenn es kein Speicher mehr zur Verfügung steht, und alle Fäden fragen nach Speicher an. Alle Fäden wird dann geblockt, und warten auf freien Speicher.
+      -Gegenseitiger Ausschluss ist erfüllt, da der Speicher ist nicht teilbar.
+      -Faden, der bereits Speichern belegt, kann noch weiterer Speicher nachfordern.
+      -Ein Speicher kann nur freigegeben werden durch den Faden, der der Speicher belegt hält.
+      -Zirkulares Warten treten auf, wenn alle Speicher belegt sind, und alle Fäden fragen um Speicher an.
+
+  2)  Wenn ein Faden um Speicher anfragt, und gibt es kein verfügbarer Speicher, dann darf die andere Fäden nicht geblockt sein. Wenn andere Faden um Speicher anfragt, dann legt die Request in ein Warteschlange,
+      die erst gerufen werden, wenn der geblockter Speichet schon wieder bereit ist.

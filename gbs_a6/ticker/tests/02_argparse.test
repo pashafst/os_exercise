@@ -1,0 +1,25 @@
+--- !inherit 01_base.test
+--- !yaml
+requirements: [ARGUMENT]
+
+--- !python Invalid lap arguments (./ticker abc)
+bonus=0.25
+exe = Compilation().compile()
+exe.run(["abc"], must_fail=True)
+
+--- !python Invalid lap arguments (./ticker -1)
+bonus=0.25
+exe = Compilation().compile()
+exe.run(["-1"], must_fail=True)
+
+--- !python Invalid lap arguments (./ticker 23abc)
+bonus=0.25
+exe = Compilation().compile()
+exe.run(["23abc"], must_fail=True)
+
+--- !python Invalid lap arguments (./ticker 0)
+bonus=0.25
+exe = Compilation().compile()
+exe.run(["0"], must_fail=True)
+
+

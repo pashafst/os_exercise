@@ -1,0 +1,52 @@
+--- !yaml
+sources:
+  hello.c:
+    main: true
+cflags: [-std=c11, -D, XOPEN_SOURCE=700, -Wall, -Werror, -pedantic, -g]
+
+--- !python Compilation
+bonus=0.1
+# First we compile the students solution with the given main
+Compilation().compile()
+
+--- !python Hello World?
+bonus = 0.3
+# First we compile the students solution with the given main
+exe = Compilation().compile()
+stdout, stderr = exe.run()
+if "hallo welt" not in stdout.lower():
+    soll = f"Hallo Welt!\n"
+    logging.info("actual stdout:\n{}".format(stdout))
+    logging.info("expected stdout:\n{}".format(soll))
+    logging.info("actual stderr:\n{}".format(stderr))
+    raise LocalError("Kein 'Hallo Welt' in der Standardausgabe gefunden")
+
+
+--- !python UID
+bonus = 0.3
+# First we compile the students solution with the given main
+exe = Compilation().compile()
+stdout, stderr = exe.run()
+
+if str(os.getuid()) not in stdout:
+    soll = f"Hallo Welt!\nuser: {os.getuid()}\ngroup: {os.getgid()}\n"
+    logging.info("actual stdout:\n{}".format(stdout))
+    logging.info("expected stdout:\n{}".format(soll))
+    logging.info("actual stderr:\n{}".format(stderr))
+    raise LocalError("Keine UID in Standardausgabe gefunden")
+
+
+--- !python GID
+bonus = 0.3
+# First we compile the students solution with the given main
+exe = Compilation().compile()
+stdout, stderr = exe.run()
+
+if str(os.getgid()) not in stdout:
+    soll = f"Hallo Welt!\nuser: {os.getuid()}\ngroup: {os.getgid()}\n"
+    logging.info("actual stdout:\n{}".format(stdout))
+    logging.info("expected stdout:\n{}".format(soll))
+    logging.info("actual stderr:\n{}".format(stderr))
+    raise LocalError("Keine GID in Standardausgabe gefunden")
+
+

@@ -1,0 +1,6 @@
+6.1)
+    1)
+    2)    Ein Prozess kann sich selber ein Signal schicken.
+    3)
+    4)
+    5)
